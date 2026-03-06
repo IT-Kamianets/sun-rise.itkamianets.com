@@ -15,9 +15,8 @@
 
 ## 📁 Структура проекту
 - `.github/workflows/deploy.yml` - Сценарій автоматичного розгортання.
-- `sunrise-website/` - Основна папка Angular проекту.
-  - `src/app/components/` - Компоненти сайту (Navbar, Hero, Rooms, Gallery, etc.).
-  - `public/assets/images/` - Папка з вашими фотографіями.
+- `src/app/components/` - Компоненти сайту (Navbar, Hero, Rooms, Gallery, etc.).
+- `public/assets/images/` - Папка з вашими фотографіями.
 
 ## 🚀 Як запустити локально
 
@@ -27,7 +26,7 @@
    ```
 2. Перейдіть у папку проекту:
    ```bash
-   cd sun-rise.itkamianets.com/sunrise-website
+   cd sun-rise.itkamianets.com
    ```
 3. Встановіть залежності:
    ```bash
