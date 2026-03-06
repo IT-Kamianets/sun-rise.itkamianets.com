@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button.is-primary {
+    background-color: #00d1b2;
+    transition: all 0.3s;
+}
+
+.button.is-primary:hover {
+    background-color: #00b89c;
+    box-shadow: 0 4px 12px rgba(0, 209, 178, 0.3);
+}
+
+.section {
+    padding: 6rem 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 3rem 1.5rem;
+    }
+}
